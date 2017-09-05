@@ -1,0 +1,15 @@
+Files Description:
+Part_1 ->	mytopo1.py: this is the topology code for part1 router exercise.
+			Switch_1.py: this is the code for learning switch part.
+			Router_1_flow_mod.py: this is the code for router exercise.
+
+Part_2 ->	mytopo2.py: this is the topology code for part2 Advanced Topology.
+			Router_2_flow_mod.py: this is the code for advanced topology.
+			FireWall.py: this is the code for fire wall.
+
+Bonus ->	mytopo3.py: this is the topology code for bonus.
+			Router_3_flow_mod.py: this is the code for bonus.
+
+Running python files:
+put mytopo1.py / mytopo2.py / mytopo3.py in the path: /home
+put Router_1_flow_mod.py / Router_2_flow_mod.py / Router_3_flow_mod.py in the path: /home/pox/pox/misc

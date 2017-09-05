@@ -1,0 +1,13 @@
+***** Follow my step to run Python *****
+5. Bonus part
+	open one terminal window:
+		ssh -Y -l mininet -p 2222 localhost
+		mininet
+		$ sudo mn -c
+		$ sudo mn --custom mytopo3.py --topo mytopo --mac --controller remote
+	open another terminal window:
+		$ cd pox
+		$ ./pox.py log.level --DEBUG misc.Router_3_flow_mod
+Test:
+	mininet> pingall
+	mininet> iperf
